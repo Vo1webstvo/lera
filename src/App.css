@@ -1,0 +1,40 @@
+
+
+@font-face {
+    font-family: 'Mono';
+    /*src: url("assets/fonts/HelveticaNeueCyr-Black.woff") format("woff");*/
+    /*src: url("assets/fonts/HelveticaNeueCyr-Bold.woff");*/
+    /*src: url("assets/fonts/HelveticaNeueCyr-Heavy.woff");*/
+    src: url("assets/fonts/HelveticaNeueCyr-Light.woff") format("woff");
+    /*src: url("assets/fonts/HelveticaNeueCyr-Medium.woff");*/
+    /*src: url("assets/fonts/HelveticaNeueCyr-Roman.woff");*/
+    /*src: url("assets/fonts/HelveticaNeueCyr-Thin.woff");*/
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Mono;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1140px;
+    padding: 0 15px;
+}
+
+.active {
+    color: red;
+}
+
+.App {
+
+    background: url("assets/bg.jpg") center center/cover no-repeat;
+    height: 100vh;
+}
+
+@import "styles/media.scss";

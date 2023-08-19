@@ -1,0 +1,41 @@
+.main {
+
+  h2 {
+    margin-top: 20px;
+    font-size: 33px;
+
+  }
+  &__lang {
+    margin-top: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 23px;
+
+    img {
+      width: 25px;
+      height: 25px;
+    }
+  }
+  &__descr {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+    .text {
+      margin-top: 25px;
+      width: 450px;
+      font-size: 20px;
+      line-height: 30px;
+    }
+
+    .photo {
+      position: absolute;
+      height: 400px;
+      width: 400px;
+      left: 700px;
+      top: -66px;
+      background: url("../../assets/myPhoto.png") center center/cover no-repeat;
+    }
+  }
+}
