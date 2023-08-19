@@ -16,7 +16,7 @@ function App() {
         <Header/>
         <Navigation/>
         <Routes>
-            <Route exact path={'/home'} element={<Home/>}/>
+            <Route exact path={'/'} element={<Home/>}/>
             <Route exact path={'/me'} element={<ForMe/>}/>
             <Route exact path={'/contacts'} element={<Contacts/>}/>
         </Routes>
