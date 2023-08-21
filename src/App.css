@@ -25,16 +25,16 @@ body {
     margin: 0 auto;
     width: 1140px;
     padding: 0 15px;
+    position: relative;
 }
 
-.active {
-    color: red;
-}
+
+    .active {
+        color:red
+    }
 
 .App {
 
-    background: url("assets/bg.jpg") center center/cover no-repeat;
-    height: 100vh;
 }
 
 @import "styles/media.scss";

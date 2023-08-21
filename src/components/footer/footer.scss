@@ -1,0 +1,37 @@
+.footer {
+  margin-top: 65px;
+  &__wrapper {
+    margin: 0 auto;
+  }
+  &__tel {
+    a {
+      text-decoration: none;
+      color: #bd7aea;
+    }
+    margin: 0 auto;
+    margin-top: 15px;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+  }
+  ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    a {
+      text-decoration: none;
+      li {
+        margin-left: 40px;
+        list-style-type: none;
+        transition: 1s;
+        :hover {
+          transform: scale(1.2)
+        }
+        img {
+          height: 40px;
+          width: 40px;
+        }
+      }
+    }
+  }
+}

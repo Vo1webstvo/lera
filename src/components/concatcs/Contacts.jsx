@@ -1,12 +1,12 @@
 import React from 'react';
 
+import Header from "../header/Header";
 const Contacts = () => {
     return (
-        <div>
-            <div className="container">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum ex mollitia odit sunt vitae. Ab, accusamus aliquam, animi, eaque explicabo illum iste itaque magni molestias pariatur quas quod ratione sit!
-            </div>
-        </div>
+        <>
+            <Header/>
+            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus dolores doloribus fugiat incidunt laborum laudantium obcaecati omnis porro quos, sed, sit vero? Asperiores dicta distinctio fugit, incidunt velit voluptates voluptatum!</span>
+        </>
     );
 };
 

@@ -1,41 +1,29 @@
 .main {
-
-  h2 {
-    margin-top: 20px;
-    font-size: 33px;
-
-  }
-  &__lang {
-    margin-top: 20px;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    font-size: 23px;
-
+  padding: 40px 0;
+  &__wrapper {
+    width: 518px;
+    text-align: justify;
     img {
-      width: 25px;
-      height: 25px;
+      position: absolute;
+      width: 400px;
+      height: 400px;
+      left: 671px;
+      top: 136px;
+      transform: rotate(12deg);
+    }
+
+  }
+  h1 {
+    font-size: 45px;
+    color: #9662bd;
+    line-height: 60px;
+    letter-spacing: 4px;
+    span {
+      font-size: 45px;
     }
   }
-  &__descr {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-
-    .text {
-      margin-top: 25px;
-      width: 450px;
-      font-size: 20px;
-      line-height: 30px;
-    }
-
-    .photo {
-      position: absolute;
-      height: 400px;
-      width: 400px;
-      left: 700px;
-      top: -66px;
-      background: url("../../assets/myPhoto.png") center center/cover no-repeat;
-    }
+  &__text {
+    margin-top: 10px;
+    font-size: 18px;
   }
 }
