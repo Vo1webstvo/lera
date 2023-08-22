@@ -8,7 +8,6 @@ import './App.css'
 import ForMe from "./components/forMe/ForMe";
 import Contacts from "./components/concatcs/Contacts";
 import './styles/button.scss';
-import Footer from './components/footer/Footer'
 import Home from "./page/home/Home";
 import Reviews from "./components/reviews/Reviews";
 import Price from "./components/price/Price";
@@ -24,7 +23,6 @@ function App() {
                     <Route exact path={'/reviews'} element={<Reviews/>}/>
                     <Route exact path={'/price'} element={<Price/>} />
                 </Routes>
-                <Footer/>
     </div>
   );
 }
