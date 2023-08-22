@@ -1,0 +1,37 @@
+.contacts {
+  padding: 15px 0;
+
+  &__text {
+    margin-top: 10px;
+    width: 800px;
+    font-size: 24px;
+    line-height: 35px;
+  }
+  &__item {
+    margin-top: 20px;
+    &-wrapper {
+      display: flex;
+      align-items: center;
+      img {
+        width: 30px;
+        height: 30px;
+      }
+    }
+  }
+&__link {
+  margin-left: 20px;
+  a {
+    font-size: 25px;
+    text-decoration: none;
+  }
+  span {
+    display: block;
+    margin-top: 3px;
+    text-align: left;
+  }
+}
+
+}
+.mt10 {
+  margin-top: 10px;
+}

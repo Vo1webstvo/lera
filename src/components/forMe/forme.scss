@@ -1,0 +1,47 @@
+.forme {
+  padding: 15px 0;
+  h2 {
+    text-align: center;
+  }
+  &__wrapper {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__slider {
+    width: 500px;
+  }
+  &__descr {
+    list-style-type: none;
+  }
+  &__list {
+    margin-top: 10px;
+    font-size: 24px ;
+    span{
+
+    }
+  }
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

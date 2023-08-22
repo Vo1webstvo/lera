@@ -14,16 +14,18 @@ import './header.scss'
 const Header = () => {
     return (
         <header className='header'>
-                    <nav className="header__nav">
-                        <ul>
-                            <NavLink to={ROUTES.HOME}><img src={logo} alt="logo"/></NavLink>
-                            <NavLink to={ROUTES.HOME}><li>Главная</li></NavLink>
-                            <NavLink to={ROUTES.ME}><li>Обо мне</li></NavLink>
-                            <NavLink to={ROUTES.REVIEWS}><li>Отзывы</li></NavLink>
-                            <NavLink to={ROUTES.PRICE}><li>Стоимоть занятий</li></NavLink>
-                            <NavLink to={ROUTES.CONTACTS}><li>Контакты</li></NavLink>
-                        </ul>
-                    </nav>
+                    <div className="container">
+                        <nav className="header__nav">
+                            <ul>
+                                <NavLink to={ROUTES.HOME}><img src={logo} alt="logo"/></NavLink>
+                                <NavLink to={ROUTES.HOME}><li>Главная</li></NavLink>
+                                <NavLink to={ROUTES.ME}><li>Обо мне</li></NavLink>
+                                {/*<NavLink to={ROUTES.REVIEWS}><li>Отзывы</li></NavLink>*/}
+                                <NavLink to={ROUTES.PRICE}><li>Стоимоть занятий</li></NavLink>
+                                <NavLink to={ROUTES.CONTACTS}><li>Контакты</li></NavLink>
+                            </ul>
+                        </nav>
+                    </div>
         </header>
     );
 };

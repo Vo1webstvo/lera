@@ -21,20 +21,14 @@ body {
     font-family: Mono;
 }
 
+
 .container {
-    margin: 0 auto;
     width: 1140px;
-    padding: 0 15px;
-    position: relative;
+    margin: 0 auto;
 }
 
+@import 'media.scss';
 
-    .active {
-        color:red
-    }
 
-.App {
 
-}
 
-@import "styles/media.scss";

@@ -1,14 +1,15 @@
 .main {
-  padding: 40px 0;
+  padding: 30px 0 60px 0;
   &__wrapper {
+    position: relative;
     width: 518px;
     text-align: justify;
     img {
       position: absolute;
       width: 400px;
       height: 400px;
-      left: 671px;
-      top: 136px;
+      left: 642px;
+      top: -16px;
       transform: rotate(12deg);
     }
 
@@ -26,4 +27,9 @@
     margin-top: 10px;
     font-size: 18px;
   }
+
+  a{
+    text-decoration: none;
+  }
 }
+
