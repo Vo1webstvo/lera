@@ -11,11 +11,12 @@ import './styles/button.scss';
 import Home from "./page/home/Home";
 import Reviews from "./components/reviews/Reviews";
 import Price from "./components/price/Price";
+import Sidepanel from "./components/sidepanel/Sidepanel";
 
 function App() {
   return (
     <div className="App">
-                {/*<Header/>*/}
+                <Sidepanel/>
                 <Routes>
                     <Route exact path={'/'} element={<Home/>}/>
                     <Route exact path={'/me'} element={<ForMe/>}/>
