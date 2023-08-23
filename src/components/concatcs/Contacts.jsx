@@ -13,7 +13,7 @@ const Contacts = () => {
     return (
         <>
             <Header/>
-            <div className="contacts">
+            <section className="contacts">
                 <div className="container">
                     <h2>Контакты для связи со мной</h2>
                     <div className="contacts__text">
@@ -51,7 +51,7 @@ const Contacts = () => {
 
                     </div>
                 </div>
-            </div>
+            </section>
         </>
     );
 };

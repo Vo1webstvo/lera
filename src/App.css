@@ -27,7 +27,7 @@ body {
     margin: 0 auto;
 }
 
-@import 'media.scss';
+@import './sass/media.scss';
 
 
 

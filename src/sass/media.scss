@@ -30,6 +30,10 @@
   .main__text {
     width: 400px;
   }
+
+  .forme .forme__slider {
+    width: 400px;
+  }
 }
 
 
@@ -62,6 +66,26 @@
 
   .main a .btn {
     margin-left: 100px;
+  }
+
+  .forme .forme__wrapper {
+    flex-direction: column;
+  }
+
+  .forme .forme__slider {
+    margin: 0 auto;
+  }
+
+  .forme .forme__descr {
+    text-align: center;
+  }
+
+  .contacts h2 {
+    text-align: center;
+  }
+  .contacts .contacts__text {
+    margin-top: 10px;;
+    width: 682px;
   }
 
 }
@@ -103,5 +127,14 @@
     margin-left: 100px;
   }
 
+  .contacts .contacts__text {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 450px;
+  }
+
+  .contacts .contacts__item {
+    margin-left: 113px;
+  }
 
 }
