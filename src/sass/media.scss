@@ -43,6 +43,7 @@
 @media (max-width: 768px) {
   .container {
     max-width: 720px;
+    padding: 0 10px;
   }
   .header__nav ul a li {
     font-size: 24px;
@@ -96,6 +97,8 @@
 @media (max-width: 576px) {
   .container {
     max-width: 540px;
+    padding: 0 10px;
+
   }
 
   .header__nav ul a li {
